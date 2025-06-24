@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f6fa;
+  color: #333;
+}
+
+.nav-bar {
+  background-color: #153a87;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  height: 55px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav{
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background-image: url('../images/hero.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.hero-text {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+  border: #001b0b solid 2px;
+  border-radius: 10px;
+  background-color: rgba(0, 21, 1, 0.84);
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+footer {
+  background-color: #153a87;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  position : fixed;
+  width: 100%;
+  bottom: 0;
+}
