@@ -43,6 +43,10 @@ header {
   height: 275px;
   text-align: center;
 }
+.hero a {
+  color: rgb(13, 203, 7);
+  text-decoration: none;
+}
 
 .hero-image {
   width: 100%;
