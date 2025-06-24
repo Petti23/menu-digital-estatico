@@ -5,13 +5,13 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #f4f6fa;
   color: #333;
 }
 
 .nav-bar {
-  background-color: #153a87;
+  background-color: #280269;
   color: white;
   justify-content: space-between;
   align-items: center;
@@ -40,8 +40,9 @@ nav a:hover {
 }
 
 .hero {
-  background-image: url('../images/hero.jpeg');
+  background-image: url('../images/hero.jpg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 275px;
   display: flex;
@@ -52,13 +53,16 @@ nav a:hover {
   text-align: center;
   color: white;
   text-shadow: 2px 2px 4px #000;
-  border: #001b0b solid 2px;
-  border-radius: 10px;
-  background-color: rgba(0, 21, 1, 0.84);
 }
 h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+}
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main {
@@ -70,26 +74,49 @@ main {
 }
 
 .card {
-  background-color: white;
-  margin: 10px;
-  padding: 15px 25px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 100%; 
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+.card h1 {
+  font-size: 24px; 
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+.menu-image {
+  width: 100%; 
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.card p {
+  margin: 10px 0 5px;
+  line-height: 1.5;
+}
+.card ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.card li {
+  margin-bottom: 5px;
+}
+.card .price {
+  font-weight: bold;
+  font-size: 16px;
+  color: #2e7d32;
+  margin-top: 10px;
 }
 
-
-
-
-
-
-
 footer {
-  background-color: #153a87;
+  background-color: #280269;
   color: white;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-  position : fixed;
   width: 100%;
-  bottom: 0;
 }
